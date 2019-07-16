@@ -1,0 +1,152 @@
+body {
+    direction: ltr;
+    text-align: left;
+}
+
+.up .content .right img{
+    margin-left: unset;
+    margin-right: 5px;
+}
+
+.up .content .right span:not(:last-child) {
+    margin-left: unset;
+    margin-right: 30px;
+}
+
+.headNav .search svg{
+    left: unset;
+    right: 15px;
+    /* transform: translateY(-43%) rotate(90deg); */
+}
+
+.headNav .options a:not(:last-child) {
+    margin-right: 25px;
+    margin-left: unset;
+}
+
+.navLinks .links ul .drop{
+    margin-right: 32px;
+    margin-left: unset;
+}
+
+.navLinks .links ul .drop > span{
+    margin-right: auto;
+    margin-left: 15px;
+}
+
+.navLinks .links ul .drop .subMenu > li > a > i {
+    transform: rotate(180deg);
+}
+
+.navLinks .links ul .drop .subMenu > li .sub{
+    left: calc(100% + 15px);
+}
+
+.first-slider .swiper-button-next{
+    right: 50px;
+    left: unset !important;
+    transform: rotate(180deg);
+}
+
+.first-slider .swiper-button-prev{
+    left: 50px;
+    right: unset !important;
+    transform: rotate(-180deg);
+}
+
+@media (min-width: 992px){
+    footer .foot-links {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px){
+    footer .foot-links {
+        text-align: left;
+    }
+}
+
+footer .frm button{
+    right: 20px;
+    left: unset;
+}
+
+@media (min-width: 1200px){
+    footer .newsletter {
+        margin-top: 0;
+        text-align: left;
+    }
+}
+
+footer .social{
+    margin-right: 115px;
+    margin-left: unset;
+}
+
+footer .download{
+    margin-right: 35px;
+    margin-left: unset;
+}
+
+footer .social a:not(:last-child){
+    margin-right: 10px;
+    margin-left: unset;
+}
+
+footer .download a:not(:last-child){
+    margin-right: 10px;
+    margin-left: unset;
+}
+
+.end img{
+    margin-left: 5px;
+    margin-right: unset;
+}
+
+.headNav .options .searBtn{
+    margin-right: 25px;
+    margin-left: unset;
+}
+
+.menuTriger{
+    left: 30px;
+    right: unset;
+}
+
+.sideNav{
+    left: -100%;
+    right: unset;
+}
+
+.sideNav.open{
+    left: 0%;
+    right: unset;
+}
+
+.sideNav .opt .lang a{
+    align-items: unset;
+    line-height: 25px;
+}
+
+.sideNav .links .drop .ar{
+    right: 13px;
+    left: unset;
+    transform: rotate(-90deg);
+}
+
+.sideNav .links .drop .subMenu > li > a > i{
+    transform: rotate(-180deg);
+}
+
+@media (max-width: 767px){
+    footer .social {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 767px){
+    footer .download {
+        margin-right: 0;
+    }
+}
