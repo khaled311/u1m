@@ -733,6 +733,10 @@ ul {
   }
 }
 
+.banners .banner{
+  overflow: hidden;
+}
+
 .banners .banner img {
   transition: 0.5s;
 }
