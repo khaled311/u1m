@@ -1062,9 +1062,21 @@ footer .pay {
   padding: 45px 0;
 }
 
+footer .las{
+  display: none;
+}
+
 @media (max-width: 991px) {
   footer .pay {
     padding: 30px 0 10px;
+  }
+
+  footer .fir{
+    display: none;
+  }
+
+  footer .las{
+    display: block;
   }
 }
 
