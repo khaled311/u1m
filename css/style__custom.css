@@ -23,6 +23,16 @@ body {
     margin-left: unset;
 }
 
+.headNav .options .drp{
+    margin-right: 25px;
+    margin-left: unset;
+}
+
+.headNav .search button{
+    right: 20px;
+    left: unset;
+}
+
 .navLinks .links ul .drop{
     margin-right: 32px;
     margin-left: unset;

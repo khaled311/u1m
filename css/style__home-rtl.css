@@ -441,17 +441,24 @@ ul.res {
   }
 }
 
-.headNav .search svg {
+.headNav .search button {
   position: absolute;
   left: 20px;
   top: 50%;
   transform: translateY(-43%);
   cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  display: flex;
+}
+
+.headNav .search button svg{
   width: 25px;
   height: 25px;
 }
 
-.headNav .search svg path {
+.headNav .search button svg path {
   fill: #202020;
   transition: .5s;
 }
@@ -492,6 +499,93 @@ ul.res {
   display: none;
   margin-left: 25px;
   cursor: pointer;
+}
+
+.headNav .options .drp{
+  position: relative;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.headNav .options .drp:hover ul{
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-40%, -14px);
+}
+
+.headNav .options .drp:hover svg path{
+  fill: #c3b988;
+}
+
+.headNav .options .drp svg{
+  width: 25px;
+  height: 25px;
+}
+
+.headNav .options .drp svg path{
+  fill: #FFF;
+  transition: .5s;
+}
+
+.headNav .options .drp > ul{
+  position: absolute;
+  width: 132px;
+  height: 74px;
+  left: 0;
+  top: 45px;
+  transform: translate(-40%, 0px);
+  z-index: 10;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: .5s;
+}
+
+.headNav .options .drp > ul li{
+  width: 100%;
+}
+
+.headNav .options .drp > ul li.bor{
+  border-bottom: 1px solid #f4f4e1;
+}
+
+.headNav .options .drp > ul li a{
+  font-size: 14px;
+  color: #202020;
+  line-height: 2.143;
+  transition: .5s;
+}
+
+.headNav .options .drp > ul li a:hover{
+  color: #c3b988;
+}
+
+.headNav .options .drp > ul .shape{
+  width: 0;
+  height: 0;
+  display: block;
+  border-width: 14px;
+  border-color: transparent transparent #ffffff;
+  border-style: solid;
+  top: -19px;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.headNav .options .searBtn svg{
+  width: 25px;
+  height: 25px;
 }
 
 .headNav .options .searBtn path {
