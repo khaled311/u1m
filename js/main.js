@@ -110,20 +110,6 @@ $(function() {
       });
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     // Img To Svg Script
     $(function(){
       jQuery('img.svg').each(function(){

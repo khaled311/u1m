@@ -16,7 +16,6 @@ body {
 .headNav .search svg{
     left: unset;
     right: 15px;
-    /* transform: translateY(-43%) rotate(90deg); */
 }
 
 .headNav .options a:not(:last-child) {
